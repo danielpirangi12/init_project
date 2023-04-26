@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: solid 1px #fff;
+    border: solid 0px #fff;
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
 }
@@ -18,7 +18,7 @@ header {
   }
   
   .logo-marca-site img {
-    height: 150px;
+    height: 90px;
   }
   
   .menu ul {
