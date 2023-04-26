@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: solid 1px #fff;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo-marca-site img {
+    height: 150px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+  }
+  
+
+/*
+display: flex; define um container flexível para os elementos.
+justify-content: space-between; alinha a logo à esquerda e o menu à direita.
+align-items: center; alinha verticalmente os elementos no centro.
+.logo img define o tamanho da imagem da logo.
+.menu ul define um container flexível para a lista de menu.
+justify-content: flex-end; alinha os itens da lista de menu à direita.
+.menu li adiciona uma margem entre os itens da lista.
+.menu a define a cor do texto dos links e remove o sublinhado padrão.*/
