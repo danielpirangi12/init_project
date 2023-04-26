@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     color: aliceblue;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*border: solid 1px;*/
+    display: flexbox;
 }
 
 html{
@@ -10,14 +12,18 @@ html{
 }
 
 header {
+    height:300px;
+    background-image: url("/img/profile-banner-home.png");
+    background-position-y: 500px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     padding: 20px;
   }
   
   .logo-marca-site img {
     height: 90px;
+    margin-top: -25px;
   }
   
   .menu ul {
@@ -35,7 +41,14 @@ header {
     text-decoration: none;
   }
   
+  #portfolio-title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
 
+  }
 /*
 display: flex; define um container flexível para os elementos.
 justify-content: space-between; alinha a logo à esquerda e o menu à direita.
