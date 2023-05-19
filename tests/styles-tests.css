@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: solid white 0.1px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+html{
+    background: #000;
+    }
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    }
+p{
+    padding-right: 100px;
+    font-size: 12px;
+
+    }
+
+section{
+    width: 40%;
+    box-shadow: 5px 10px #888888;
+
+}
+
+input, textarea{
+    margin: 5px;
+    padding: 5px;
+    background: black;
+    border-radius: 1em;
+    width: 40vmin;
+    height: 30px;
+    
+}

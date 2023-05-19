@@ -13,11 +13,11 @@
   /******************FORMATAÇÃO GERAL*****************/
 
   html {
-    background-color: #000000;
+    background-color: #282E48;
   }
 
   /******************HEADER**************************/
-  header, .tudf_oidjf {
+  header {
     height: 500px;
     background-image: url("/img/profile-banner-home.png");
     background-repeat: no-repeat;
@@ -61,31 +61,50 @@
 
   #portfolio-title h1,
   #portfolio-title h3 {
-    background-color: #000000;
+    background-color: #282E48;
   }
 
   /******************POST 1 - WHO AM I*****************/
 
-  #who-am-i h3,
-  #who-am-i p {
+  #container-post-1 div{
     text-align: center;
-    width: 50%;
+    width: 100vmin;
     padding: 10px 30px;
-    margin-left: 150px;
     line-height: 1.7em;
 
   }
 
-  #container-post-1{
-    display: inline;
+  #container-post-1 {
+    display: flex;
+    justify-content: center;
 
   }
 
 
+/*********************Projetos*************************/
+  .data-projects div{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    border: dotted;
+    box-sizing: border-box;
+    margin: 30px;
+    align-items: center;
+    align-content:center;
+    
+  }
+
+  .data-projects h3{
+    font-size: 2.5em;
+  }
+
+  .data-projects p{
+    height: 80px;
+    text-align: center;
+    align-content: center;
 
 
-
-
+  }
 
 
 
