@@ -1,0 +1,213 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/***************************************************************************/
+/*****************************CABEÇALHO*************************************/
+/***************************************************************************/
+
+.cabecalho{
+    padding: 30px 15px;
+    position: relative;
+    
+}
+
+.cabecalho .logo{
+    background: url("../img/home/logo.jpg") center center no-repeat;
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+}
+
+.cabecalho .logo h1{
+    font-size: 0;
+}
+
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+
+}
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+}
+
+/**************************************************************************/
+/*******************PRIMEIRO PAINEL COM IMAGEM*****************************/
+/**************************************************************************/
+
+.painel{
+    background: url('../img/home/painel.jpg') center center no-repeat;
+    height: 600px;
+}
+
+.painel h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*************************************************************************/
+/***********************PAINEIS DE TEXTO**********************************/
+/*************************************************************************/
+
+.area-com-texto{
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.area-com-texto img{
+   width: 170px;
+   height: 170px; 
+}
+
+.area-com-texto h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.area-com-texto p{
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.area-com-texto#onde-estamos p{
+    font-size: 17px;
+    width: 380px;
+}
+
+/**************************************************************************/
+/*********************PAINEL COM MULTIPLAS IMAGENS*************************/
+/**************************************************************************/
+
+.ladrilho div{
+    float: left;
+}
+
+.ladrilho .grande{
+    background: url('../img/home/4.jpg') center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno{
+    background: url('../img/home/3.jpg') center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno.grao{
+    background: url('../img/home/2.jpg') center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .media{
+    background: url('../img/home/1.jpg') center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+/**************************************************************************/
+/******************************Área de Contato*****************************/
+/**************************************************************************/
+
+.area-de-contato{
+    background: url('../img/home/fundo-contato.jpg') center center no-repeat;
+    color: white;
+    height: 600px;
+    position: relative;
+}
+
+.area-de-contato div{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.area-de-contato h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.area-de-contato address{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/**************************************************************************/
+/******************************Área de Rodapé******************************/
+/**************************************************************************/
+
+.rodape{
+    background: url("/src/img/home/fundo-rodape.jpg") center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape ul{
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a{
+    color: white;
+}
+
+.rodape ul li a:hover{
+    font-weight: bold;
+}
+
+.rodape .copyright{
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.conteudo-footer{
+    float: right;
+    clear: both;
+}
+
+
+
+/***********************************************************************
+***********************************************************************
+8888888b. 8888888 8888888b.         d8888 888b    888  .d8888b.  8888888 
+888   Y88b  888   888   Y88b       d88888 8888b   888 d88P  Y88b   888   
+888    888  888   888    888      d88P888 88888b  888 888    888   888   
+888   d88P  888   888   d88P     d88P 888 888Y88b 888 888          888   
+8888888P"   888   8888888P"     d88P  888 888 Y88b888 888  88888   888   
+888         888   888 T88b     d88P   888 888  Y88888 888    888   888   
+888         888   888  T88b   d8888888888 888   Y8888 Y88b  d88P   888   
+888       8888888 888   T88b d88P     888 888    Y888  "Y8888P88 8888888
+***********************************************************************
+***********************************************************************/

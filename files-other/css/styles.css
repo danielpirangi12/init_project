@@ -147,8 +147,16 @@
   }
 
 
+/*************************FOOTER*******************************************/
 
+.menu-2-footer h4{
+  color: red;
+}
 
+.menu-2-footer ul li{
+  padding-top: 10px;
+  margin-left: 5px;
+}
 
   /*
 display: flex; define um container flexível para os elementos.
