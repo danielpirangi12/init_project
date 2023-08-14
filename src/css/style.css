@@ -9,15 +9,19 @@ body{
 /***************************************************************************/
 
 .cabecalho{
-    padding: 30px 15px;
-    position: relative;
-    
+    display: inline-block;
+    min-width:1440px;
+    padding-bottom: 5px;
+    background-color: rgba(251, 255, 254, 0.411);
+    position: fixed;
+
 }
 
 .cabecalho .logo{
-    background: url("../img/home/logo.jpg") center center no-repeat;
-    width: 85px;
-    height: 85px;
+    background: url("../img/home/daniel-logo.png") center center no-repeat;
+    background-size: 250px;
+    width: 250px;
+    height: 60px;
     display: inline-block;
 }
 
@@ -27,15 +31,15 @@ body{
 
 .cabecalho nav{
     display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 30px;
+    position: relative;
+    right: -610px;
+    top: 35px;
 
 }
 
 .cabecalho ul li{
     display: inline-block;
-    padding: 15px;
+    padding-inline: 20px;
 }
 
 .cabecalho ul li a:hover{
@@ -46,13 +50,15 @@ body{
 /*******************PRIMEIRO PAINEL COM IMAGEM*****************************/
 /**************************************************************************/
 
-.painel{
+.painel{                                                  
     background: url('../img/home/painel.jpg') center center no-repeat;
+    background-attachment: fixed;
     height: 600px;
+
 }
 
 .painel h2{
-    color: white;
+    color: rgb(0, 0, 0,0.90);
     font-size: 60px;
     font-weight: 400;
     text-align: center;
@@ -73,7 +79,8 @@ body{
 
 .area-com-texto img{
    width: 170px;
-   height: 170px; 
+   height: 170px;
+   border-radius: 50%;
 }
 
 .area-com-texto h2{
@@ -83,8 +90,9 @@ body{
 
 .area-com-texto p{
     font-size: 18px;
-    width: 702px;
+    width: 800px;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .area-com-texto#onde-estamos p{
@@ -102,6 +110,8 @@ body{
 
 .ladrilho .grande{
     background: url('../img/home/4.jpg') center center no-repeat;
+    background-size: 600px;
+    background-position-y: -85px;
     height: 600px;
     width: 50%;
 }
