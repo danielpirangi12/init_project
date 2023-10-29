@@ -1,6 +1,11 @@
+*{
+    /* border: solid 0.1px; */
+}
 body{
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 auto;
+    
 }
 
 
@@ -15,57 +20,68 @@ body{
     background-color: rgba(251, 255, 254, 0.411);
     position: fixed;
 
+
 }
 
 .cabecalho .logo{
-    background: url("../img/home/daniel-logo.png") center center no-repeat;
-    background-size: 250px;
+    background: url("../img/home/logogeopulsex.png") center center no-repeat;
+    background-size: 200px;
     width: 250px;
     height: 60px;
     display: inline-block;
-}
+    
+                }
 
 .cabecalho .logo h1{
     font-size: 0;
-}
+                    }
 
 .cabecalho nav{
     display: inline-block;
     position: relative;
     right: -610px;
     top: 35px;
-
-}
+    right: 1px;
+                }
 
 .cabecalho ul li{
     display: inline-block;
     padding-inline: 20px;
-}
+    font: red;
+                }
 
 .cabecalho ul li a:hover{
     font-weight: bold;
-}
+                        }
 
 /**************************************************************************/
 /*******************PRIMEIRO PAINEL COM IMAGEM*****************************/
 /**************************************************************************/
 
-.painel{                                                  
-    background: url('../img/home/painel.jpg') center center no-repeat;
+#particles-js{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/home/painel2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    background-position-y: -100px;
+    
+            }
 
-}
-
-.painel h2{
-    color: rgb(0, 0, 0,0.90);
-    font-size: 60px;
-    font-weight: 400;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
+section #logo-painel{
+    position:absolute;
+    background-image: url("../img/home/geopulsex.png");
+    background-size: 480px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 480px;
+    height: 150px;
+    
+            }
 
 /*************************************************************************/
 /***********************PAINEIS DE TEXTO**********************************/
@@ -111,7 +127,6 @@ body{
 .ladrilho .grande{
     background: url('../img/home/4.jpg') center center no-repeat;
     background-size: 600px;
-    background-position-y: -85px;
     height: 600px;
     width: 50%;
 }
