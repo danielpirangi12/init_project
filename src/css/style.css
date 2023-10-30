@@ -86,37 +86,52 @@ section #logo-painel{
             }
 
 /*************************************************************************/
-/***********************PAINEIS DE TEXTO**********************************/
+/**************************QUEM SOU EU************************************/
 /*************************************************************************/
 
-.area-com-texto{
+.container-quem-sou-eu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.quem-sou-txt{
     padding: 153px;
     text-align: center;
     clear: both;
 }
 
-.area-com-texto img{
+.container-quem-sou-eu header{
+    background-color: #c5c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.quem-sou-img{
+   background: url("/src/img/home/foto-daniel-p.png") center no-repeat;
+   background-size: 175px;
    width: 170px;
    height: 170px;
    border-radius: 50%;
 }
 
-.area-com-texto h2{
-    font-size: 45px;
-    font-weight: 600;
+.quem-sou-title{
+    font-size: 29px;
+    font-weight: 300;
 }
-
-.area-com-texto p{
+.container-quem-sou-eu p{
     font-size: 18px;
-    width: 800px;
-    margin: 0 auto;
+    width: 70%;
+    padding-inline: 50px 20px;
     text-align: justify;
+    
 }
 
-.area-com-texto #onde-estamos p{
-    font-size: 17px;
-    width: 380px;
-}
 
 /**************************************************************************/
 /*********************PAINEL COM MULTIPLAS IMAGENS*************************/
@@ -160,7 +175,7 @@ section #logo-painel{
     background-image: linear-gradient(to right, #94B9FF, #CDFFD8 );
 }
 
-.container {
+.container-formulario {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -171,6 +186,7 @@ section #logo-painel{
     padding-top: 30px;
     padding-inline: 100px;
     margin-bottom: 30px;
+
     
 }
 
@@ -184,7 +200,8 @@ form {
     padding: 10px;
     background-color: #f0f0f0;
     border-radius: 10px;
-
+    border: solid 0.5px;
+    border-color: rgba(192, 189, 190, 0.918);
 }
 
 #enviar:hover{
@@ -243,10 +260,22 @@ form {
     /* background: url("/src/img/home/fundo-rodape.jpg") center center no-repeat; */
     background-color: #292727;
     padding: 35px 30px;
-    background-size: cover;
+    
 }
 
-
+.logo-align{
+    text-align: right;
+}
+.logo-topo{
+    display: inline-block;
+    margin-bottom: -12px;
+    background-color: #fff;
+    background: url("/src/img/home/topo-icon.png") center no-repeat;
+    background-size: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
 
 
 /***********************************************************************
