@@ -1,13 +1,13 @@
 *{
     /* border: solid 0.1px; */
     font-family: 'Poppins', sans-serif;
-}
+    }
+
 body{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 auto;
-    
-}
+    }
 
 
 /***************************************************************************/
@@ -21,9 +21,7 @@ body{
     padding-bottom: 5px;
     background-color: rgba(251, 255, 254, 0.9);
     position: fixed;
-
-
-}
+    }
 
 .cabecalho .logo{
     background: url("../img/home/logogeopulsex.png") center center no-repeat;
@@ -31,12 +29,11 @@ body{
     width: 250px;
     height: 60px;
     display: inline-block;
-    
-                }
+    }
 
 .cabecalho .logo h1{
     font-size: 0;
-                    }
+    }
 
 .cabecalho nav{
     display: inline-block;
@@ -44,24 +41,23 @@ body{
     right: -610px;
     top: 35px;
     right: 1px;
-                }
+    }
 
 .cabecalho ul li{
     display: inline-block;
     padding-inline: 20px;
     font: red;
-                }
+    }
 
 .cabecalho ul li a:hover{
     font-weight: bold;
-                        }
+    }
 
 /**************************************************************************/
 /******************************IMG-PAINEL-LOGO*****************************/
 /**************************************************************************/
 
 #particles-js{ 
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,8 +67,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position-y: -100px;
-    
-            }
+    }
 
 section #logo-painel{
     position:absolute;
@@ -82,8 +77,7 @@ section #logo-painel{
     background-position: center;
     width: 480px;
     height: 150px;
-    
-            }
+    }
 
 /*************************************************************************/
 /**************************QUEM SOU EU************************************/
@@ -95,13 +89,13 @@ section #logo-painel{
     width: 100%;
     text-align: justify;
     margin-top: 20px;
-}
+    }
 
 .quem-sou-txt{
     padding: 153px;
     text-align: center;
     clear: both;
-}
+    }
 
 .container-quem-sou-eu header{
     background-color: #c5c4c4;
@@ -110,27 +104,27 @@ section #logo-painel{
     justify-content: center;
     align-items: center;
     width: 30%;
-}
+    }
 
 .quem-sou-img{
-   background: url("/src/img/home/foto-daniel-p.png") center no-repeat;
-   background-size: 175px;
-   width: 170px;
-   height: 170px;
-   border-radius: 50%;
-}
+    background: url("/src/img/home/foto-daniel-p.png") center no-repeat;
+    background-size: 175px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    }
 
 .quem-sou-title{
     font-size: 29px;
     font-weight: 300;
-}
+    }
+
 .container-quem-sou-eu p{
     font-size: 18px;
     width: 70%;
     padding-inline: 50px 20px;
     text-align: justify;
-    
-}
+    }
 
 
 /**************************************************************************/
@@ -139,32 +133,32 @@ section #logo-painel{
 
 .ladrilho div{
     float: left;
-}
+    }
 
 .ladrilho .grande{
     background: url('../img/home/4.jpg') center no-repeat;
     background-size: 600px;
     height: 600px;
     width: 50%;
-}
+    }
 
 .ladrilho .pequeno{
     background: url('../img/home/3.jpg') center no-repeat;
     height: 300px;
     width: 25%;
-}
+    }
 
 .ladrilho .pequeno.grao{
     background: url('../img/home/2.jpg') center no-repeat;
     height: 300px;
     width: 25%;
-}
+    }
 
 .ladrilho .media{
     background: url('../img/home/1.jpg') center no-repeat;
     height: 300px;
     width: 50%;
-}
+    }
 /**************************************************************************/
 /******************************Área de Contato*****************************/
 /**************************************************************************/
@@ -173,27 +167,25 @@ section #logo-painel{
     margin-bottom: 20px;
     /* background: url('../img/home/painel2.png') center center no-repeat; */
     background-image: linear-gradient(to right, #94B9FF, #CDFFD8 );
-}
+    }
 
 .container-formulario {
     display: flex;
     justify-content: space-between;
     width: 90%;
-}
+    }
 
 .contact-info, .contact-form {
     width: 100%; /* Para deixar um espaço pequeno entre as duas partes */
     padding-top: 30px;
     padding-inline: 100px;
-    margin-bottom: 30px;
-
-    
-}
+    margin-bottom: 30px;    
+    }
 
 form {
     display: flex;
     flex-direction: column;
-}
+    }
 
 #nome, #email, #mensagem, #enviar{
     margin-bottom: 5px;
@@ -202,16 +194,15 @@ form {
     border-radius: 10px;
     border: solid 0.5px;
     border-color: rgba(192, 189, 190, 0.918);
-}
+    }
 
 #enviar:hover{
     background-color: #94B9FF;
-    
-}
+    }
 
 .social-buttons {
     margin-top: 20px;
-}
+    }
 
 .social-buttons a {
     display: inline-block;
@@ -222,7 +213,7 @@ form {
     margin-inline: 20px;
     border-radius: 5px;
     transition: background-color 0.3s;
-}
+    }
 
 
         .social-buttons a.instagram { 
@@ -231,25 +222,24 @@ form {
             width: 40px;
             height: 40px;
             border-radius: 100%;
-        }
+            }
         .social-buttons a.whatsapp {
             background: url("/src/img/home/whatsapp.png") center  no-repeat;
             background-size: 35px;
             width: 40px;
             height: 40px;
             border-radius: 100%;
-        }
+            }
         .social-buttons a.linkedin {
             background: url("/src/img/home/linkdin_1.png") center no-repeat;
             background-size: 35px;
             width: 40px;
             height: 40px;
             border-radius: 100%;
-        }
+            }
         .social-buttons a:hover {
             background-color: #33333380;
-
-        }
+            }
 
 
 /**************************************************************************/
@@ -260,22 +250,28 @@ form {
     /* background: url("/src/img/home/fundo-rodape.jpg") center center no-repeat; */
     background-color: #292727;
     padding: 35px 30px;
-    
-}
+    }
 
-.logo-align{
+.logo-top{
     text-align: right;
-}
-.logo-topo{
+    color: #c5c4c4;
+    }
+.logo-top-img{
     display: inline-block;
     margin-bottom: -12px;
     background-color: #fff;
-    background: url("/src/img/home/topo-icon.png") center no-repeat;
+    background: url("/src/img/home/topo-icon-white.png") center no-repeat;
     background-size: 35px;
     width: 40px;
     height: 40px;
     border-radius: 100%;
-}
+    }
+
+.menu-footer, .menu-footer a{
+    color: white;
+    display: inline-flex;
+    padding-inline:15px;
+    }
 
 
 /***********************************************************************

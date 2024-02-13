@@ -16,6 +16,10 @@
 </head>
 
 <body>
+
+<!------------------------------------------------------------------------>
+<!------------------------- start header---------------------------------->
+<!------------------------------------------------------------------------>
     <main id="Home">
         <header class="cabecalho">
             <a href="index.html" class="logo">
@@ -30,6 +34,7 @@
                     <li><a href="#quem-somos">Mapas</a></li>
                     <li><a href="#onde-estamos">Trabalhos</a></li>
                     <li><a href="#contato">Contato</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
         </header>
@@ -39,6 +44,14 @@
             <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
             <div id="logo-painel"></div>
         </section>
+
+        <script>
+            particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+        </script>
+
+<!------------------------------------------------------------------------>
+<!-------------------------- end header----------------------------------->
+<!------------------------------------------------------------------------>
 
         <section class="container-quem-sou-eu">
             <header>
@@ -55,11 +68,12 @@
             </p>
 
         </section>
-        
+
 
     <br>
-<!----------------------- INICIO CONTATO--------------------------------->
-
+<!------------------------------------------------------------------------>
+<!------------------------ start contact--------------------------------->
+<!------------------------------------------------------------------------>
         <section class="area-de-contato" id="contato">
             <div class="container-formulario">
                 <div class="contact-info">
@@ -89,45 +103,56 @@
                             <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
 
                         <label for="mensagem">Mensagem:</label>
-                            <textarea id="mensagem" name="mensagem"  placeholder="Digite seu texto" required> 
-                            </textarea><br>
+                            <textarea id="mensagem" name="mensagem" required placeholder="Digite seu texto"></textarea><br>
 
                         <input type="submit" value="Enviar" id="enviar">
                     </form>
                 </div>
             </div>    
         </section>
-<!----------------------- FIM CONTATO------------------------------------->
+<!------------------------------------------------------------------------>
+<!----------------------- End contact------------------------------------->
+<!------------------------------------------------------------------------>
 
 
-
+<!------------------------------------------------------------------------>
+<!--------------------------start footer---------------------------------->
+<!------------------------------------------------------------------------>
 
     <footer class="rodape">
-        <div class="logo-align">
-            <a href="#Home"><div class="logo-topo"></div></a>
+        <div class="logo-top">
+            <a href="#Home"><div class="logo-top-img"></div></a>
             <div>Topo</div>
         </div>
-
-        <div id="sfchbax9z5ng9aya6j8hfajrldswk81rjk5"></div>
-        <script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=hbax9z5ng9aya6j8hfajrldswk81rjk5&down=async" async>
-        </script><br>
-        
-        <a href="https://www.webcontadores.com"></a>
-
-        <noscript>
-            <a href="https://www.webcontadores.com" title="contador de visitas">
-                <img src="https://counter6.optistats.ovh/private/webcontadores.php?c=hbax9z5ng9aya6j8hfajrldswk81rjk5" border="0" title="contador de visitas" alt="contador de visitas">
-            </a>
-        </noscript>
-
+        <div>
+            <ul class="menu-footer">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#quem-somos">Downloads</a></li>
+                <li><a href="#quem-somos">Mapas</a></li>
+                <li><a href="#onde-estamos">Trabalhos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+          <!--==============Start access counter===================-->
+            <div id="sfcql6jk8ty59r3x4spk9prcenynhlg4gq5">
+            </div>
+                <script type="text/javascript" src="https://counter8.optistats.ovh/private/counter.js?c=ql6jk8ty59r3x4spk9prcenynhlg4gq5&down=async" async></script><br>
+                <noscript>
+                    <a href="https://www.webcontadores.com" title="contador de visitas para blog">
+                        <img src="https://counter8.optistats.ovh/private/webcontadores.php?c=ql6jk8ty59r3x4spk9prcenynhlg4gq5" border="0" title="contador de visitas para blog" alt="contador de visitas para blog"></a>
+                </noscript>
+        <!--==================End access counter=====================-->
      </footer>
+
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/44383387.js"></script>
 <!-- End of HubSpot Embed Code -->
 
-<script>
-    particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
-</script>
+<!------------------------------------------------------------------------>
+<!--------------------------start footer---------------------------------->
+<!------------------------------------------------------------------------>
+
 </body>
 
 
