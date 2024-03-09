@@ -269,15 +269,21 @@
 // ============== HIGHER ORDER FUNCTION =====================
 //          ORDEM SUPERIOR DE FUNÇÕES (CALLBACK)
 
-const calcularAnoDeNascimento = function (idade, mesDeNascimento, imprimir){
-    const mesAtual = 2
-    let anoDeNascimento = 2024 - idade
-    if(mesDeNascimento > mesAtual) anoDeNascimento --
-    imprimir(anoDeNascimento)
-}
+// const calcularAnoDeNascimento = function (idade, mesDeNascimento, imprimir){
+//     const mesAtual = 2
+//     let anoDeNascimento = 2024 - idade
+//     if(mesDeNascimento > mesAtual) anoDeNascimento --
+//     imprimir(anoDeNascimento)
+// }
 
-let imprimirAnoDeNascimento = anoDeNascimento =>{
-    console.log('Seu ano de nascimento é:' + anoDeNascimento)
-}
+// let imprimirAnoDeNascimento = anoDeNascimento =>{
+//     console.log('Seu ano de nascimento é:' + anoDeNascimento)
+// }
 
-calcularAnoDeNascimento(29, 12,imprimirAnoDeNascimento)  
+// calcularAnoDeNascimento(29, 12,imprimirAnoDeNascimento)
+
+const menu = document.querySelector('nav');
+
+function activeScroll(){
+    menu.classList.toggle('ativo', scrollY > 0);
+}

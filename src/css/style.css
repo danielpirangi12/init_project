@@ -1,308 +1,69 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto:wght@100&family=Ubuntu&family=Varela+Round&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-weight: 300;
-    box-sizing: border-box;
-    /* font-family: 'Ubuntu', sans-serif; */
-    font-family: 'Poppins', sans-serif;
-    }
-
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 auto;
-    }
-a{
+/********** NAVEGAÇÃO DO SITE *************/
+/* *{
+    border: solid 1px;
     text-decoration: none;
-    color: black;
+} */
+
+a:hover{
+    text-shadow: 5px 5px 10px black;
 }
 
-ul{
-    list-style: none;
+/********** NAVEGAÇÃO DO SITE *************/
+.navbar-fixed-and-scroll{
+    
 }
 
-img{
-    max-width: 100;
+.navbar-fixed-and-scroll .navbar-brand img{
+    width: 200px;
 }
 
-
-/***************************************************************************/
-/*******************************HEADER*************************************/
-/***************************************************************************/
-
-.cabecalho{
-    position:static;
-    display: inline-block;
-    min-width:1440px;
-    padding-bottom: 5px;
-    background-color: rgba(251, 255, 254, 0.9);
-    position: fixed;
-    }
-
-.cabecalho .logo{
-    background: url("../img/home/logogeopulsex.png") center center no-repeat;
-    background-size: 200px;
-    width: 250px;
-    height: 60px;
-    display: inline-block;
-    }
-
-.cabecalho .logo h1{
-    font-size: 0;
-    }
-
-.cabecalho nav{
-    display: inline-block;
-    position: relative;
-    right: -610px;
-    top: 35px;
-    right: 1px;
-    }
-
-.cabecalho ul li{
-    display: inline-block;
-    padding-inline: 20px;
-    font: red;
-    }
-
-.cabecalho ul li a:hover{
-    font-weight: bold;
-    }
-
-/**************************************************************************/
-/******************************IMG-PAINEL-LOGO*****************************/
-/**************************************************************************/
-
-#particles-js{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../img/home/painel2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-y: -100px;
-    }
-
-section #logo-painel{
-    position:absolute;
-    background-image: url("../img/home/geopulsex.png");
-    background-size: 480px;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 480px;
-    height: 150px;
-    }
-
-/*************************************************************************/
-/**************************QUEM SOU EU************************************/
-/*************************************************************************/
-
-.container-quem-sou-eu {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    text-align: justify;
-    margin-top: 20px;
-    }
-
-.quem-sou-txt{
-    padding: 153px;
-    text-align: center;
-    clear: both;
-    }
-
-.container-quem-sou-eu header{
-    background-color: #c5c4c4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    }
-
-.quem-sou-img{
-    background: url("/src/img/home/foto-daniel-p.png") center no-repeat;
-    background-size: 175px;
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    }
-
-.quem-sou-title{
-    font-size: 29px;
-    font-weight: 300;
-    }
-
-.container-quem-sou-eu p{
-    font-size: 18px;
-    width: 70%;
-    padding-inline: 50px 20px;
-    text-align: justify;
-    }
-
-
-/**************************************************************************/
-/*********************PAINEL COM MULTIPLAS IMAGENS*************************/
-/**************************************************************************/
-
-.ladrilho div{
-    float: left;
-    }
-
-.ladrilho .grande{
-    background: url('../img/home/4.jpg') center no-repeat;
-    background-size: 600px;
-    height: 600px;
-    width: 50%;
-    }
-
-.ladrilho .pequeno{
-    background: url('../img/home/3.jpg') center no-repeat;
-    height: 300px;
-    width: 25%;
-    }
-
-.ladrilho .pequeno.grao{
-    background: url('../img/home/2.jpg') center no-repeat;
-    height: 300px;
-    width: 25%;
-    }
-
-.ladrilho .media{
-    background: url('../img/home/1.jpg') center no-repeat;
-    height: 300px;
-    width: 50%;
-    }
-/**************************************************************************/
-/******************************Área de Contato*****************************/
-/**************************************************************************/
-
-.area-de-contato{
-    margin-bottom: 20px;
-    /* background: url('../img/home/painel2.png') center center no-repeat; */
-    background-image: linear-gradient(to right, #94B9FF, #CDFFD8 );
-    }
-
-.container-formulario {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    }
-
-.contact-info, .contact-form {
-    width: 100%; /* Para deixar um espaço pequeno entre as duas partes */
-    padding-top: 30px;
-    padding-inline: 100px;
-    margin-bottom: 30px;    
-    }
-
-form {
-    display: flex;
-    flex-direction: column;
-    }
-
-#nome, #email, #mensagem, #enviar{
-    margin-bottom: 5px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    border: solid 0.5px;
-    border-color: rgba(192, 189, 190, 0.918);
-    }
-
-#enviar:hover{
-    background-color: #94B9FF;
-    }
-
-.social-buttons {
-    margin-top: 20px;
-    }
-
-.social-buttons a {
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
+.navbar-fixed-and-scroll div .access-classroom{
     margin-inline: 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    }
+}
 
+/********** VOLTAR AO TOP ****************/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
 
-        .social-buttons a.instagram { 
-            background: url("/src/img/home/insta_1.png") center  no-repeat;
-            background-size: 35px;
-            width: 40px;
-            height: 40px;
-            border-radius: 100%;
-            }
-        .social-buttons a.whatsapp {
-            background: url("/src/img/home/whatsapp.png") center  no-repeat;
-            background-size: 35px;
-            width: 40px;
-            height: 40px;
-            border-radius: 100%;
-            }
-        .social-buttons a.linkedin {
-            background: url("/src/img/home/linkdin_1.png") center no-repeat;
-            background-size: 35px;
-            width: 40px;
-            height: 40px;
-            border-radius: 100%;
-            }
-        .social-buttons a:hover {
-            background-color: #33333380;
-            }
+/********** NAVEGAÇÃO DO SITE *************/
+.carousel-opening-3-img,
+.container-text-presentation,
+.container-highlights{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
+/* ===================================================================== */
+/* ============================LOGIN================================= */
+/* ===================================================================== */
 
-/**************************************************************************/
-/******************************Área de Rodapé******************************/
-/**************************************************************************/
+.form-login-acess{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
 
-.rodape{
-    /* background: url("/src/img/home/fundo-rodape.jpg") center center no-repeat; */
-    background-color: #292727;
-    padding: 35px 30px;
-    }
+.form-login-acess .col-lg-3{
+    padding: 30px;
+    border: solid 1px;
+    border-radius: 0.5rem;
+}
 
-.logo-top{
-    text-align: right;
-    color: #c5c4c4;
-    }
-.logo-top-img{
-    display: inline-block;
-    margin-bottom: -12px;
-    background-color: #fff;
-    background: url("/src/img/home/topo-icon-white.png") center no-repeat;
-    background-size: 35px;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    }
+.form-login-acess .button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-.menu-footer, .menu-footer a{
-    color: white;
-    display: inline-flex;
-    padding-inline:15px;
-    }
-
-
-/***********************************************************************
-***********************************************************************
-8888888b. 8888888 8888888b.         d8888 888b    888  .d8888b.  8888888 
-888   Y88b  888   888   Y88b       d88888 8888b   888 d88P  Y88b   888   
-888    888  888   888    888      d88P888 88888b  888 888    888   888   
-888   d88P  888   888   d88P     d88P 888 888Y88b 888 888          888   
-8888888P"   888   8888888P"     d88P  888 888 Y88b888 888  88888   888   
-888         888   888 T88b     d88P   888 888  Y88888 888    888   888   
-888         888   888  T88b   d8888888888 888   Y8888 Y88b  d88P   888   
-888       8888888 888   T88b d88P     888 888    Y888  "Y8888P88 8888888
-***********************************************************************
-***********************************************************************/
+.form-login-acess button{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: green;
+}
