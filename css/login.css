@@ -1,0 +1,88 @@
+
+    .backgroud-image{
+        height: 750px;
+        /* border: solid 1px; */
+        padding-top: 90px;
+        background-image: url('../img/pages/painel5.png');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;       
+    }
+    
+/* espaçamento externo do formulário (distancia do topo)*/
+    .form-login-acess{
+        margin-top: 80px;
+        /* margin-bottom: 250px; */
+        text-decoration: none;
+        
+
+    }
+
+/* área interna do formulário */
+    h2{
+        text-align: center;
+    }
+
+    label{
+        font-size: 16px;
+    }
+
+
+    .logo-lagsig{
+        width: 120px;
+    }
+
+    #email, #password, #Check1{
+        border: solid 1px;
+        border-color: #b4b4b4;
+    }
+
+    .form-check-label{
+        font-size: 12px;
+    }
+
+    .form-login-acess .col-lg-3{
+        margin-inline: 30px;
+        width: 400px;
+        padding: 30px;
+        border: solid 1px;
+        border-radius: 0.5rem;
+        box-shadow: 5px 10px 8px #888888;
+        background-color: rgba(255, 255, 255, 0.7);
+
+    }
+
+    .form-login-acess .button{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .form-login-acess button{
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .button a{
+        font-size: 15px;
+        font-weight: 500;
+        color: #ffff;
+        text-decoration: none;
+    }
+
+    .mb-3 a {
+        font-size:12px;
+        text-decoration:none;
+    }
+
+    #email::-webkit-input-placeholder{
+            color:rgb(199, 199, 199);
+            font-size: 14px;
+        }
+    #password::-webkit-input-placeholder{
+        color:rgb(199, 199, 199);
+        font-size: 14px;
+    }

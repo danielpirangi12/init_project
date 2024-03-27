@@ -1,0 +1,154 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+/* *{
+  border: solid;
+} */
+
+
+body{
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+.container-fluid{
+  margin-top: 80px;
+  position: inherit;
+  color: rgb(0, 0, 0);
+}
+
+
+/****************** NAVBAR LATERAL ESQUERDA *****************************/
+
+/*----------------- INFORMAÇÕES DO USUARIO----------------------------- */
+
+/******* foto do perfil **************/
+  .rounded-circle{
+    width: 80px;
+    margin-left: 70px;
+  }
+/* ******************************** */
+
+/* texto do perfil de usuario */
+
+  .txt-user-load-line{
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: -120px;
+  }
+  .txt-user-load-line li{
+    display: block;
+    width: 150px;
+    text-align: left;
+  }
+  .user-name-load{
+    font-size: 15px;
+    font-weight: 800;
+  }
+
+/* botão fechar sidebar */
+.offcanvas-body, .list-group-item{
+  background-color: #3445B4;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.btn-fixed{ 
+  position: fixed;
+  margin-left: 12px;
+  margin-top: -65px;
+  z-index: 1;
+}
+
+.list-group-item{
+  display: flex;
+  align-items:center;
+  width: 250px;
+  height: 50px;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border: none;
+}
+
+.list-group-item li{
+  text-decoration: none;
+  color: aliceblue;
+  text-align: left;
+}
+
+.list-group-item i{
+  margin-right: 15px;
+}
+
+ul a{
+  text-decoration: none;
+}
+
+ul a li:hover {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: #3445B4;
+}
+
+/* .card{
+
+  max-width: 300px;
+
+
+} */
+
+.row-cols-md-3{
+  margin-inline: 90px;  
+}
+
+
+
+@media screen and (width: 450px) {
+  .row-cols-md-3{
+    margin-inline: 15px;  
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+/********** START FOOTER *********************/
+
+.footer{
+  background-color: rgb(100, 100, 109);
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-whatsapp-square,
+.fa-linkedin{
+  color: rgb(255, 255, 255);
+  width: 40px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center{
+  font-size: 12px;
+  font-weight: 100;
+
+}
+/******************************************/

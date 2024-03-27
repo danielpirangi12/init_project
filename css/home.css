@@ -1,0 +1,48 @@
+
+/* *{border: solid 1px;} */
+
+/********** START CAROUSEL *************/
+    .carousel-opening-3-img,
+    .container-text-presentation,
+    .container-highlights{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+            .carousel-item{
+                background-attachment: fixed;
+                min-height: 100%;
+                width: 100vw;
+                height: 70vh;
+            }
+
+                    .carousel-1{
+                        background-image: url('../img/pages/painel.jpg');  
+                    }
+                    .carousel-2{
+                        background-image: url('../img/pages/painel1.png');  
+                    }
+                    .carousel-3{
+                        background-image: url('../img/pages/painel5.png');
+                    }
+
+            .carousel-caption{
+                border-radius: 15px;
+                background-color: rgb(255, 255, 255, 0.6);
+                padding: 5px;
+                text-align: center;
+                color: rgb(124, 2, 2);                        
+            }
+
+    @media only screen and (max-width: 480px) {
+        .img-fluid,
+        .carousel-inner{
+            width: 92vw;
+            height: 500px;
+        }
+      }
+
+/***************************************/
+
+
+
