@@ -1,0 +1,37 @@
+/********** Navegação geral da tela de login *************/
+
+*{
+    /* border: solid 1px; */
+    
+}
+
+nav a:hover{
+    font-weight:700;
+}
+
+/********** barra de navegação *************/
+.navbar-fixed-and-scroll .navbar-brand img{ 
+    width: 200px;
+}
+
+.navbar-fixed-and-scroll div .access-classroom{
+    margin-inline: 20px;
+}
+
+.access-classroom{
+    display: flex;
+    padding: 20px;    
+}
+
+.search::-webkit-input-placeholder{
+    color:rgb(199, 199, 199);
+    font-size: 14px;
+}
+
+/********** NAVEGAÇÃO DO SITE *************/
+.carousel-opening-3-img,
+.container-text-presentation,
+.container-highlights{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
